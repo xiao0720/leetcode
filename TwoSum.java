@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Hashtable;
-
 /**
  * Problem: #1 Two Sum
  *
@@ -13,6 +10,9 @@ import java.util.Hashtable;
  *  twoSumHash2: Use hash table to trade space for time O(n)
  *  twoSumHash: One loop, examining and add new.
  */
+
+import java.util.HashMap;
+import java.util.Hashtable;
 
 public class TwoSum {
     private static int[] twoSum(int[] nums, int target) {

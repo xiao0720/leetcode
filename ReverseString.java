@@ -6,6 +6,7 @@
  * Solutions:
  *  reverseString: use StringBuilder for efficiently string building
  */
+
 public class ReverseString {
     public String reverseString(String s) {
         StringBuilder builder = new StringBuilder();

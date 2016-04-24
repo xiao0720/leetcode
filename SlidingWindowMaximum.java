@@ -1,10 +1,11 @@
-import java.util.Arrays;
-import java.util.PriorityQueue;
-
 /**
  * Problem: #239 Sliding Window Maximum
  * Solutions: TBC
  */
+
+import java.util.Arrays;
+import java.util.PriorityQueue;
+
 public class SlidingWindowMaximum {
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int[] list = new int[nums.length - k + 1];

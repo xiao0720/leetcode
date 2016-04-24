@@ -7,6 +7,7 @@
  * Solutions:
  *  removeElement: two pointers
  */
+
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int current = 0;
