@@ -7,22 +7,16 @@
  */
 
 public class TwoSum {
-
+    
     public static int[] twoSum(int[] nums, int target) {
-        int i, j;
-
-        for (i = 0; i < nums.length; i++) {
-            int diff = target - nums[i];
-
-            for (j = i + 1; j< nums.length; j++) {
-                if (diff == nums[j]) {
-                    int[] result = {i, j};
-                    return result;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j< nums.length; j++) {
+                if (target - nums[i] == nums[j]) {
+                    return new int[] {i, j};
                 }
             }
         }
-
-        return null;
+        throw new IllegalArgumentException("Now solution found.");
     }
 
     public static void main(String[] args) {
