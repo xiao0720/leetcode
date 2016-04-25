@@ -8,6 +8,8 @@ import java.util.HashMap;
  * Solutions:
  *  singleNumberHash: using a hash map to store unique characters found.
  *  singleNumber:
+ *
+ * Note: can be faster
  */
 public class SingleNumber {
     public int singleNumberHash(int[] nums) {
