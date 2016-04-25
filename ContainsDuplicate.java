@@ -1,4 +1,6 @@
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Problem: #217 Contains Duplicate
@@ -6,17 +8,24 @@ import java.util.ArrayList;
  * Idea:
  *
  * Solutions:
- *  singleNumberHash: using a hash map to store unique characters found.
- *  singleNumber:
+ *  containsDuplicateHash: using a hash set to store unique characters found.
+ *  containsDuplicateSort: sort then find. This exceeds the time limit.
  *
- * Note: #canbefaster
  */
 public class ContainsDuplicate {
-    public boolean containsDuplicate(int[] nums) {
-        ArrayList<Integer> list = new ArrayList<>();
+    public boolean containsDuplicateHash(int[] nums) {
+        Set<Integer> set = new HashSet<>();
         for (int num : nums) {
-            if (list.contains(num)) return true;
-            list.add(num);
+            if (set.contains(num)) return true;
+            set.add(num);
+        }
+        return false;
+    }
+
+    public boolean containsDuplicateSort(int[] nums) {
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == nums[i+1]) return true;
         }
         return false;
     }
