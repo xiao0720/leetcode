@@ -9,7 +9,7 @@ import java.util.HashMap;
  *  singleNumberHash: using a hash map to store unique characters found.
  *  singleNumber:
  *
- * Note: can be faster
+ * Note: #canbefaster
  */
 public class SingleNumber {
     public int singleNumberHash(int[] nums) {
