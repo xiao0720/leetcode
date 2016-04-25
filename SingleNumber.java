@@ -1,4 +1,7 @@
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 /**
  * Problem: #136 Single Number
@@ -6,14 +9,15 @@ import java.util.HashMap;
  * Idea:
  *
  * Solutions:
- *  singleNumberHash: using a hash map to store unique characters found.
- *  singleNumber:
+ *  singleNumberMap: using a hash map to store unique characters found.
+ *  singleNumberSet: using a hash set to store unique characters found.
+ *  singleNumberSort:
  *
  * Note: #canbefaster
  */
 public class SingleNumber {
-    public int singleNumberHash(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+    public int singleNumberMap(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
                 map.remove(nums[i]);
@@ -24,6 +28,19 @@ public class SingleNumber {
         return (Integer) map.keySet().toArray()[0];
     }
 
+    public int singleNumberSet(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            if (set.contains(num)) {
+                set.remove(num);
+            } else {
+                set.add(num);
+            }
+        }
+        return (Integer) set.toArray()[0];
+    }
+
+
     /**
      * Need to sort the array first.
      */
@@ -32,14 +49,12 @@ public class SingleNumber {
             return nums[0];
         }
 
-        //Net
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == nums[i+1]) {
-                i ++;
-            } else {
-                return nums[i];
-            }
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 1; i+=2) {
+            if (nums[i] != nums[i+1]) return nums[i];
+
         }
-        throw new IllegalArgumentException("No solution found.");
+        return -1;
     }
 }
