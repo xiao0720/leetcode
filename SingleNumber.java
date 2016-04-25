@@ -40,7 +40,6 @@ public class SingleNumber {
         return (Integer) set.toArray()[0];
     }
 
-
     /**
      * Need to sort the array first.
      */
