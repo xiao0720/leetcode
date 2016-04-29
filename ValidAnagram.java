@@ -42,13 +42,4 @@ public class ValidAnagram {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        ValidAnagram va = new ValidAnagram();
-        System.out.println(va.isAnagram("", ""));
-        System.out.println(va.isAnagram("anagram", "nagaram"));
-        System.out.println(va.isAnagram("rat", "car"));
-        System.out.println(va.isAnagram("a", "b"));
-        System.out.println(va.isAnagram("a", "a"));
-    }
 }
