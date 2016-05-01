@@ -13,7 +13,7 @@
       boolean isBadVersion(int version); */
 public class FirstBadVersion {
     public int binarySearch(int left, int right) {
-        int middle = (left + right)/2;
+        int middle = left + (right-left)/2;
 
         if (isBadVersion(middle)  == true) {
             if (isBadVersion(middle - 1) == false) {
