@@ -15,19 +15,15 @@ public class FirstBadVersion {
     public int binarySearch(int left, int right) {
         int middle = left + (right-left)/2;
 
-        if (isBadVersion(middle)  == true) {
+        if (isBadVersion(middle)) {
             if (!isBadVersion(middle - 1)) {
                 return middle;
             } else {
                 return binarySearch(left, middle-1);
             }
-        }
-
-        if (!isBadVersion(middle)) {
+        } else {
             return binarySearch(middle + 1, right);
         }
-
-        return -1;
     }
 
     public int firstBadVersion(int n) {
