@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 /**
  * Problem: #278 First Bad Version
  *
