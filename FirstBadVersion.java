@@ -16,14 +16,14 @@ public class FirstBadVersion {
         int middle = left + (right-left)/2;
 
         if (isBadVersion(middle)  == true) {
-            if (isBadVersion(middle - 1) == false) {
+            if (!isBadVersion(middle - 1)) {
                 return middle;
             } else {
                 return binarySearch(left, middle-1);
             }
         }
 
-        if (isBadVersion(middle) == false) {
+        if (!isBadVersion(middle)) {
             return binarySearch(middle + 1, right);
         }
 
