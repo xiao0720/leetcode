@@ -4,8 +4,9 @@
  * Idea:
  *
  * Solutions:
- *  invertTree: using invertTreeNode method, recursive calls, do the inversion until no
+ *  invertTree: using invertTreeNode method, recursively, do the inversion until no
  * children exists.
+ *  invertTreeCombined: simplified invertTree method.
  *
  */
 
@@ -38,6 +39,19 @@ public class InvertBinaryTree {
         if (root != null) {
             invertTreeNode(root);
         }
+        return root;
+    }
+
+    public TreeNode invertTreeCombined(TreeNode root) {
+        if (root == null) {
+            return root;
+        }
+
+        TreeNode left = invertTreeCombined(root.left);
+        TreeNode right = invertTreeCombined(root.right);
+        root.left = right;
+        root.right = left;
+
         return root;
     }
 /*
