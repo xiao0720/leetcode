@@ -5,7 +5,7 @@ Every solution has the question number, name, general idea to solve the problem 
 
 Current solutions:
 
-# | Title | Note
+No. | Title | Note
 ------------- |:-------------:| -----:
 1 | Two Sum |
 26 | Remove Duplicates from Sorted Array |
