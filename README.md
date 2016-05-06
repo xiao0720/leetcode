@@ -32,8 +32,8 @@ No. | Title | Note
 ### Not yet categorised
 No. | Title | Note
 --- | --- | ---
-338 | Counting Bits |
-344 | Reverse String |
 198 | House Robber |
+338 | Counting Bits |
 239 | Sliding Window Maximum |
+344 | Reverse String |
 347 | Top K Frequent Elements |
