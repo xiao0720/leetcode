@@ -29,7 +29,7 @@ No. | Title | Note
 26 | Remove Duplicates from Sorted Array |
 27 | Remove Element |
 
-### Not yet categorised
+### Not Yet Categorised
 No. | Title | Note
 --- | --- | ---
 198 | House Robber |
