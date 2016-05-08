@@ -26,7 +26,7 @@ No. | Title | Note
 ### Linked List
 No. | Title | Note
 --- | --- | ---
-237 | Delete Node in a Linked List
+237 | Delete Node in a Linked List | Swap with Next Node
 
 ### Two Pointers
 No. | Title | Note
