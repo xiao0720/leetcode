@@ -23,6 +23,11 @@ No. | Title | Note
 --- | --- | ---
 226 | Invert Binary Tree |
 
+### Linked List
+No. | Title | Note
+--- | --- | ---
+237 | Delete Node in a Linked List
+
 ### Two Pointers
 No. | Title | Note
 --- | --- | ---
