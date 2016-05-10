@@ -3,7 +3,7 @@ My solutions to problems on LeetCode [(https://leetcode.com/)](https://leetcode.
 
 Every solution has its corresponding question number, name, general idea to solve the problem and different methods used written in the top comment.
 
-## Current solutions
+## Current Solutions
 ### HashSet, HashTable
 No. | Title | Note
 --- | --- | ---
