@@ -5,40 +5,40 @@ Every solution has its corresponding question number, name, general idea to solv
 
 ## Current Solutions
 ### HashSet, HashTable
-No. | Title | Note
---- | --- | ---
-1 | Two Sum | HashMap
-136 | Single Number | HashSet
-137 | Single Number II | HashSet
-217 | Contains Duplicate | HashSet
-242 | Valid Anagram | HashMap
+No. | Title | Language | Note
+--- | --- | --- | ---
+1 | Two Sum | Java/Ruby | HashMap
+136 | Single Number | Java | HashSet
+137 | Single Number II | Java | HashSet
+217 | Contains Duplicate | Java/Ruby | HashSet
+242 | Valid Anagram | Java | HashMap
 
 ### Binary Search
-No. | Title | Note
---- | --- | ---
-278 | First Bad Version |
+No. | Title | Language | Note
+--- | --- | --- | ---
+278 | First Bad Version | Java
 
 ### Binary Tree
-No. | Title | Note
---- | --- | ---
-226 | Invert Binary Tree |
+No. | Title | Language | Note
+--- | --- | --- | ---
+226 | Invert Binary Tree | Java
 
 ### Linked List
-No. | Title | Note
---- | --- | ---
-237 | Delete Node in a Linked List | Swap with Next Node
+No. | Title | Language | Note
+--- | --- | --- | ---
+237 | Delete Node in a Linked List | Java | Swap with Next Node
 
 ### Two Pointers
-No. | Title | Note
---- | --- | ---
-26 | Remove Duplicates from Sorted Array |
-27 | Remove Element |
+No. | Title | Language | Note
+--- | --- | --- | ---
+26 | Remove Duplicates from Sorted Array | Java
+27 | Remove Element | Java
 
 ### Not Yet Categorised
-No. | Title | Note
---- | --- | ---
-198 | House Robber |
-338 | Counting Bits |
-239 | Sliding Window Maximum |
-344 | Reverse String |
-347 | Top K Frequent Elements |
+No. | Title | Language | Note
+--- | --- | --- | ---
+198 | House Robber | Java
+338 | Counting Bits | Java/Ruby |
+239 | Sliding Window Maximum | Java
+344 | Reverse String | Java
+347 | Top K Frequent Elements | Java
