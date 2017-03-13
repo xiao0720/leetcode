@@ -11,6 +11,7 @@
  *  twoSumHash: One loop, examining and add new.
  */
 
+import java.util.Map;
 import java.util.HashMap;
 import java.util.Hashtable;
 
@@ -53,6 +54,22 @@ public class TwoSum {
         throw new IllegalArgumentException("No solutions found");
     }
 
+    private static int[] twoSumHashMap(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+
+            if (map.containsKey(complement)) {
+                return new int[] {map.get(complement), i};
+            } else {
+                map.put(nums[i], i);
+            }
+       }
+
+       return null;
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[] {2, 7, 11, 15};
         int target = 9;
@@ -60,9 +77,11 @@ public class TwoSum {
         int[] result0 = twoSum(nums, target);
         int[] result1 = twoSumHash2(nums, target);
         int[] result2 = twoSumHash(nums, target);
+        int[] result3 = twoSumHashMap(nums, target);
 
         System.out.println("[" + result0[0] + ", " + result0[1] + "]");
         System.out.println("[" + result1[0] + ", " + result1[1] + "]");
         System.out.println("[" + result2[0] + ", " + result2[1] + "]");
+        System.out.println("[" + result3[0] + ", " + result3[1] + "]");
   }
 }
