@@ -4,14 +4,18 @@ My solutions to problems on LeetCode [(https://leetcode.com/)](https://leetcode.
 Every solution has its corresponding question number, name, general idea to solve the problem and different methods used written in the top comment.
 
 ## Current Solutions
+### Array
+No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
+
 ### HashSet, HashTable
-No. | Title | Language | Note
---- | --- | --- | ---
-1 | Two Sum | Java/Ruby | HashMap
-136 | Single Number | Java | HashSet
-137 | Single Number II | Java | HashSet
-217 | Contains Duplicate | Java/Ruby | HashSet
-242 | Valid Anagram | Java | HashMap
+No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+136 | Single Number | Java || | HashSet
+137 | Single Number II | Java ||| HashSet
+217 | Contains Duplicate | Java/Ruby ||| HashSet
+242 | Valid Anagram | Java ||| HashMap
 
 ### Binary Search
 No. | Title | Language | Note
