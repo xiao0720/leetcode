@@ -6,12 +6,12 @@ Every solution has its corresponding question number, name, general idea to solv
 ## Current Solutions
 ### Array
 No. | Title | Language | Time | Space | Note
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | ---
 1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
 
 ### HashSet, HashTable
 No. | Title | Language | Time | Space | Note
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | ---
 136 | Single Number | Java || | HashSet
 137 | Single Number II | Java ||| HashSet
 217 | Contains Duplicate | Java/Ruby ||| HashSet
