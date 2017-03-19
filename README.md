@@ -8,8 +8,13 @@ Every solution has its corresponding question number, name, general idea to solv
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
-✅ | 344 | Reverse String | Java | O(n) | O(n) | Char array and String.valueOf()
+✅ | 136 | Single Number | Java | O(n) | O(1) | XOR is always the trick!
 ✅ | 412 | FizzBuzz | Java | O(n) | O(n) | LinkedList
+
+### String
+Status | No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+✅ | 344 | Reverse String | Java | O(n) | O(n) | Char array and `String.valueOf()`
 
 ### HashSet, HashTable
 No. | Title | Language | Time | Space | Note
