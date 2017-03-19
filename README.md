@@ -8,6 +8,8 @@ Every solution has its corresponding question number, name, general idea to solv
 No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | ---
 1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
+11 | Container With Most Water | Java |  |  | 
+412 | FizzBuzz | Java | O(n) | O(n) | LinkedList
 
 ### HashSet, HashTable
 No. | Title | Language | Time | Space | Note
