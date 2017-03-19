@@ -8,6 +8,7 @@ Every solution has its corresponding question number, name, general idea to solv
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
+✅ | 344 | Reverse String | Java | O(n) | O(n) | Char array and String.valueOf()
 ✅ | 412 | FizzBuzz | Java | O(n) | O(n) | LinkedList
 
 ### HashSet, HashTable
