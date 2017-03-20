@@ -16,6 +16,11 @@ Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 344 | Reverse String | Java | O(n) | O(n) | Char array and `String.valueOf()`
 
+### Tree
+Status | No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+❓ | 104 | Maximum Depth of Binary Tree | Java | O(n) | O(n) | Top-bottom, Bottom-top tree traversal 
+
 ### HashSet, HashTable
 No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | ---
