@@ -19,7 +19,12 @@ Status | No. | Title | Language | Time | Space | Note
 ### Tree
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
-❓ | 104 | Maximum Depth of Binary Tree | Java | O(n) | O(n) | Top-bottom, Bottom-top tree traversal 
+✅ | 104 | Maximum Depth of Binary Tree | Java | O(n) | O(n) | With/without instance variable Top-bottom tree traversal 
+
+### Bit Manipulation
+Status | No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+✅ | 371 | Sum of Two Integers | Java | O(n) | O(n) | Sum without carry by `^`, carry by `&`
 
 ### HashSet, HashTable
 No. | Title | Language | Time | Space | Note
