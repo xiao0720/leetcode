@@ -9,6 +9,7 @@ Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
 ✅ | 136 | Single Number | Java | O(n) | O(1) | XOR is always the trick!
+✅ | 283 | Move Zeroes | Java | O(n) | O(1) | Two pointers, best & worst cases help understand
 ✅ | 412 | FizzBuzz | Java | O(n) | O(n) | LinkedList
 
 ### String
