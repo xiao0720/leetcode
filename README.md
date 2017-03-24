@@ -16,6 +16,7 @@ Status | No. | Title | Language | Time | Space | Note
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 344 | Reverse String | Java | O(n) | O(n) | Char array and `String.valueOf()`
+✅ | 387 | First Unique Character in a String | Java | O(n) | O(1) | Bit vector counting the frequency of char
 
 ### Tree
 Status | No. | Title | Language | Time | Space | Note
