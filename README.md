@@ -8,6 +8,7 @@ Every solution has its corresponding question number, name, general idea to solv
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 1 | Two Sum | Java/Ruby | O(n) | O(n) | HashMap
+✅ | 122 | Best Time to Buy and Sell Stock II | Java | O(n) | O(1) | Accumulation of profit, Peak-valley is overkill but can be useful sometime.
 ✅ | 136 | Single Number | Java | O(n) | O(1) | XOR is always the trick!
 ✅ | 283 | Move Zeroes | Java | O(n) | O(1) | Two pointers, best & worst cases help understand
 ✅ | 412 | FizzBuzz | Java | O(n) | O(n) | LinkedList
