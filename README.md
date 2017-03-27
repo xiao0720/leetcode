@@ -13,6 +13,11 @@ Status | No. | Title | Language | Time | Space | Note
 ✅ | 283 | Move Zeroes | Java | O(n) | O(1) | Two pointers, best & worst cases help understand
 ✅ | 412 | FizzBuzz | Java | O(n) | O(n) | LinkedList
 
+### Math
+Status | No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+✅ | 171 | Excel Sheet Column Number | Java | O(n) | O(1) | Base 26 calculation
+
 ### String
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
