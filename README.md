@@ -18,6 +18,11 @@ Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
 ✅ | 171 | Excel Sheet Column Number | Java | O(n) | O(1) | Base 26 calculation
 
+### List
+Status | No. | Title | Language | Time | Space | Note
+--- | --- | --- | --- | --- | --- | ---
+✅ | 237 | Delete Node in a Linked List | O(1) | O(1) | Java | Without access to the previous node, replace current node with next node and delete the next node
+
 ### String
 Status | No. | Title | Language | Time | Space | Note
 --- | --- | --- | --- | --- | --- | ---
@@ -51,11 +56,6 @@ No. | Title | Language | Note
 No. | Title | Language | Note
 --- | --- | --- | ---
 226 | Invert Binary Tree | Java
-
-### Linked List
-No. | Title | Language | Note
---- | --- | --- | ---
-237 | Delete Node in a Linked List | Java | Swap with Next Node
 
 ### Two Pointers
 No. | Title | Language | Note
