@@ -6,9 +6,9 @@ class Solution(object):
         :rtype: List[int]
         """
         for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+            j = target - nums[i]
+            if (j in nums) and (nums.index(j) != i): 
+                return sorted([i, nums.index(j)])
 
 if __name__ == "__main__":
-    print(Solution().twoSum([2, 7, 11, 15], 1))
+    print(Solution().twoSum([2, 2, 11, 15], 4))
