@@ -3,8 +3,7 @@ from ListNode import *
 
 class Solution():
     def addTwoNumbers(self, l1, l2):
-        current_node = ListNode(None)
-        head_node = current_node
+        head_node = current_node = ListNode(None)
         carry = 0
         p = l1
         q = l2
@@ -30,19 +29,23 @@ class Solution():
 
 
 def buildTree(nums):
-    node = ListNode(nums[0])
-    node.next = ListNode(nums[1])
-    node.next.next = ListNode(nums[2])
-    return node
+    head = node = ListNode(None)
+    for num in nums:
+        node.next = ListNode(num)
+        node = node.next
+    return head.next
 
 
 def printTree(node):
-    print(node.val, "->", node.next.val, "->", node.next.next.val, sep=" ")
+    while node:
+        print(node.val, end='')
+        node = node.next
+        if node: print(' -> ', end='')
+    print()
 
 
-if __name__ == "__main__":
-    nums1 = [2, 4, 3]
-    nums2 = [5, 6, 4]
-    print(
-        printTree(Solution().addTwoNumbers(buildTree(nums1),
-                                           buildTree(nums2))))
+if __name__ == '__main__':
+    nums1 = [2, 4]
+    nums2 = [2, 5, 9]
+    printTree(Solution().addTwoNumbers(buildTree(nums1),
+                                        buildTree(nums2)))
