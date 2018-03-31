@@ -9,21 +9,22 @@ class Solution():
         p = l1
         q = l2
 
-        while p is not None or q is not None or carry != 0:
-            x = p.val if p is not None else 0
-            y = q.val if q is not None else 0
+        while p or q or carry:
+            x = y = 0
+
+            if p is not None:
+                x = p.val
+                p = p.next
+
+            if q is not None:
+                y = q.val
+                q = q.next
 
             sum = x + y + carry
             sum, carry = sum % 10, int(sum / 10)
 
             current_node.next = ListNode(sum)
-
             current_node = current_node.next
-
-            if p is not None:
-                p = p.next
-            if q is not None:
-                q = q.next
 
         return head_node.next
 
