@@ -9,15 +9,18 @@ class Solution:
             is_negative = True
             x = -x
 
-        digit_lst = []
-        self.digits(x, digit_lst)
-        num = self.getInt(digit_lst)
+        self.digits(x)
+        num = self.getInt(self.digits(x))
         return -num if is_negative else num
 
-    def digits(self, x, digit_lst):
-        if x != 0:
+    def digits(self, x):
+        digit_lst = []
+
+        while x != 0:
             digit_lst.append(x % 10)
-            self.digits(x // 10, digit_lst)
+            x = x // 10
+
+        return digit_lst
 
     def getInt(self, lst):
         res = 0
@@ -31,4 +34,4 @@ class Solution:
 
         
 if __name__ == '__main__':
-    print(Solution().reverse(-123))
+    print(Solution().reverse(12243))
