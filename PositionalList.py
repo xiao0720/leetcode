@@ -28,7 +28,20 @@ class _DoubleLinkedBase:
         return node._element
     
 
-# Given a position in the list, you can access the elements at O(1)
 class PositionalList(_DoubleLinkedBase):
     class Position:
-        def __init__(self):
+        def __init__(self, container, node):
+            self._container = container
+            self._node = node
+
+        def element(self):
+            return self._node._element
+
+        def __eq__(self, other):
+            return type(other) is type(self) and other._node is self._node
+
+        def __ne__(self, other):
+            return not (self == other)
+
+    def _make_position(self, p):
+        return self.Position(self, p)
